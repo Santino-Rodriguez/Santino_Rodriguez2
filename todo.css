@@ -8,6 +8,7 @@ body {
   padding: 0;
 }
 
+
 /* Encabezado */
 header {
   background-color: #f4a6c0;
@@ -50,8 +51,8 @@ nav a:hover {
 /* Contenido principal */
 main {
   padding: 20px;
+  height: 100vh;
 }
-
 section {
   margin-bottom: 30px;
 }
@@ -77,7 +78,7 @@ h2 {
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 200px;
   border-radius: 5px;
 }
 
