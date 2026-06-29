@@ -1,0 +1,172 @@
+
+
+body {
+  background-color: #ffffff; 
+  color: #333333; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #f4a6c0;
+  padding: 10px;
+  text-align: center;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+header h1 {
+  color: #333333;
+  margin: 10px 0;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f5d76e; 
+}
+
+/* Contenido principal */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333333;
+}
+
+/* Cards */
+.cards {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 250px;
+  border: 1px solid #f4a6c0;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  color: #333333;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card a {
+  display: inline-block;
+  background-color: #f4a6c0;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.card a:hover {
+  background-color: #f5d76e;
+  color: #333333;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #333333;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f4a6c0;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #f4a6c0;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f4a6c0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f5d76e;
+  color: #333333;
+}
+
+/* Pie de página */
+footer {
+  background-color: #f4a6c0;
+  color: #333333;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+
