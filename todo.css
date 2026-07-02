@@ -1,57 +1,57 @@
 
 
 body {
-  background-color: #ffffff; 
-  color: #333333; 
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  background-color: #ffffff; /*Color de fondo*/
+  color: #333333; /*Color de letra general (Gris oscuro)*/
+  font-family: Arial, sans-serif; /*Fuente principal*/
+  margin: 0; /*Eliminacion de margenes por defecto*/
+  padding: 0;/*Eliminacion de relleno por defecto*/
 }
 
 
 /* Encabezado */
 header {
-  background-color: #f4a6c0;
-  padding: 10px;
-  text-align: center;
+  background-color: #f4a6c0; /*Fondo rosado de encabezado*/
+  padding: 10px; /*Espacio interno*/
+  text-align: center; /*Centrar el contenido*/
 }
 
 header img {
-  width: 80px;
-  height: auto;
+  width: 80px; /*Tamaño del logo*/
+  height: auto; /*Mantener la proporcion automatica*/
 }
 
 header h1 {
-  color: #333333;
-  margin: 10px 0;
+  color: #333333;/*Color del titulo*/
+  margin: 10px 0;/*Espaciado superior e inferior*/
 }
 
 /* Navegación */
 nav ul {
-  list-style: none;
+  list-style: none;/*Quitar viñetas*/
   padding: 0;
   margin: 0;
 }
 
 nav li {
-  display: inline-block;
-  margin: 0 10px;
+  display: inline-block;/*Los items se muestran en linea*/
+  margin: 0 10px;/*espaciado entre links*/
 }
 
 nav a {
-  text-decoration: none;
+  text-decoration: none;/*quitar subrayado*/
   color: #333333;
-  font-weight: bold;
+  font-weight: bold;/*texto en negritas*/
 }
 
 nav a:hover {
-  color: #f5d76e; 
+  color: #f5d76e; /*color al pasar el mouse x encima*/
 }
 
 /* Contenido principal */
 main {
   padding: 20px;
-  height: 100vh;
+  height: 100vh;/*Ocupa todo el tamaño de la pagina*/
 }
 section {
   margin-bottom: 30px;
