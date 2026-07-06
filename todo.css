@@ -63,11 +63,12 @@ h2 {
 
 /* Cards */
 .cards {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card {
-  display: inline-block;
+  display: flexbox;
   width: 250px;
   border: 1px solid #f4a6c0;
   border-radius: 5px;
